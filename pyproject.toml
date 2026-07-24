@@ -1,0 +1,14 @@
+[project]
+name = "cktotp"
+version = "1.0.0"
+description = "Simple TOTP implementation."
+readme = "README.md"
+authors = [
+    { name = "Christopher Keefer", email = "ckeefer@artandlogic.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
