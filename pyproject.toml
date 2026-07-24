@@ -4,10 +4,16 @@ version = "1.0.0"
 description = "Simple TOTP implementation."
 readme = "README.md"
 authors = [
-    { name = "Christopher Keefer", email = "ckeefer@artandlogic.com" }
+    { name = "Christopher Keefer", email = "keefer@sanemethod.com" }
 ]
 requires-python = ">=3.11"
 dependencies = []
+license-files = ["LICENSE",]
+
+[project.urls]
+Homepage = "https://github.com/ck-al/cktotp"
+Documentation = "https://github.com/ck-al/cktotp"
+Repository = "https://github.com/ck-al/cktotp.git"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]
