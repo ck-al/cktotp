@@ -6,7 +6,6 @@ Requires Python 3.11 or newer.
 
 ## Installation
 ```shell
-bash
 pip install cktotp
 ```
 ## Usage
